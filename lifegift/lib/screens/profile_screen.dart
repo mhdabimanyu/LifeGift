@@ -146,11 +146,11 @@ class _StatsRow extends StatelessWidget {
     return const Row(
       children: [
         Expanded(
-          child: StatTile(value: '4', label: 'Kali donor'),
+          child: StatTile(value: '69', label: 'Kali donor'),
         ),
         SizedBox(width: Spacing.sm + 4),
         Expanded(
-          child: StatTile(value: '12', label: 'Nyawa terbantu'),
+          child: StatTile(value: '67', label: 'Nyawa terbantu'),
         ),
         SizedBox(width: Spacing.sm + 4),
         Expanded(
