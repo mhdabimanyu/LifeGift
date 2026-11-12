@@ -172,7 +172,7 @@ class _BadgeList extends StatelessWidget {
       children: [
         const SectionTitle('Badge kemanusiaan'),
         SizedBox(
-          height: 104,
+          height: 124,
           child: ListView.separated(
             scrollDirection: Axis.horizontal,
             itemCount: DummyData.badges.length,
@@ -180,8 +180,12 @@ class _BadgeList extends StatelessWidget {
             itemBuilder: (context, i) {
               final DonorBadge b = DummyData.badges[i];
               return SizedBox(
-                width: 132,
+                width: 156,
                 child: InfoCard(
+                  padding: const EdgeInsets.symmetric(     
+                  horizontal: Spacing.sm + 4,            
+                  vertical: Spacing.sm + 4,              
+        ),                          
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
