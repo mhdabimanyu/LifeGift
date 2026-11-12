@@ -5,8 +5,8 @@ import 'models.dart';
 class DummyData {
   DummyData._();
 
-  static const String userName = 'Andi Pratama';
-  static const String userFirstName = 'Andi';
+  static const String userName = 'Jaya';
+  static const String userFirstName = 'Jaya';
   static const String userBloodType = 'O+';
   static const String registrationNo = 'LG-2026-00481';
 
