@@ -86,7 +86,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   controller: _nameCtrl,
                   textInputAction: TextInputAction.next,
                   decoration: const InputDecoration(
-                    hintText: 'Andi Pratama',
+                    hintText: 'Nama',
                     prefixIcon: Icon(Icons.person_outline),
                   ),
                   validator: _validateName,
@@ -98,7 +98,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   keyboardType: TextInputType.emailAddress,
                   textInputAction: TextInputAction.next,
                   decoration: const InputDecoration(
-                    hintText: 'andi@email.com',
+                    hintText: 'Nama@email.com',
                     prefixIcon: Icon(Icons.alternate_email),
                   ),
                   validator: _validateContact,
